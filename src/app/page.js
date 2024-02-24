@@ -38,7 +38,7 @@ export default function Home() {
                         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Malitha Supun</h2>
                         <h3 className="text-2xl py-2 md:text-3xl">Full-stack developer</h3>
                         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-                            Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!
+                            Freelancer providing services for programming and design content needs. Join me down below and let&apos;s get cracking!
                         </p>
                     </div>
                     <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
