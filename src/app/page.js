@@ -61,19 +61,48 @@ export default function Home() {
                             i offer from a wide range of services, including brand design, programming and teaching.
                         </p>
                     </div>
-                    <div>
-                        <div>
-                           <Image src={design} width={100} height={100}/>
-                           <h3>Beautiful Designs</h3>
-                           <p>
+                    <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                        <div className="flex flex-col items-center">
+                           <Image src={design} width={100} height={100} className="place-items-center"/>
+                           <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+                           <p className="py-2">
                             Creating elegant designs suited for your needs following core design theory.
                            </p>
-                           <h4>Design tools I use</h4>
-                           <p>Figma</p>
-                           <p>illustrator</p>
-                           <p>Figma</p>
+                           <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                           <p className="text-gray-800 py-1">Figma</p>
+                           <p className="text-gray-800 py-1">illustrator</p>
+                           <p className="text-gray-800 py-1">Figma</p>
                         </div>
                     </div>
+
+                    <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                        <div className="flex flex-col items-center">
+                           <Image src={consulting} width={100} height={100} className="place-items-center"/>
+                           <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+                           <p className="py-2">
+                            Creating elegant designs suited for your needs following core design theory.
+                           </p>
+                           <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                           <p className="text-gray-800 py-1">Figma</p>
+                           <p className="text-gray-800 py-1">illustrator</p>
+                           <p className="text-gray-800 py-1">Figma</p>
+                        </div>
+                    </div>
+
+                    <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                        <div className="flex flex-col items-center">
+                           <Image src={code} width={100} height={100} className="place-items-center"/>
+                           <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+                           <p className="py-2">
+                            Creating elegant designs suited for your needs following core design theory.
+                           </p>
+                           <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                           <p className="text-gray-800 py-1">Figma</p>
+                           <p className="text-gray-800 py-1">illustrator</p>
+                           <p className="text-gray-800 py-1">Figma</p>
+                        </div>
+                    </div>
+
                 </section>
 
             </main>
