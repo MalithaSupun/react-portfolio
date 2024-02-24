@@ -111,8 +111,9 @@ export default function Home() {
                     <div>
                         <h3 className="text-3xl py-1 mt-10">Portfolio</h3>
                         <p className="text-md py-2 leading-8 text-gray-800">
-                            I am currently an undergraduate student at SLIIT Academy pursuing a B.Sc. Hons in Computer Science and Software Engineering from the University of Bedfordshire. My passion for technology extends beyond the classroom, as I actively seek opportunities to apply my knowledge in real-world scenarios. I consider myself a quick learner and thrive on challenges, always eager to explore and master new technologies. Whether it's web development, app creation, or Java programming, I approach each project with enthusiasm and a dedication to excellence. My goal is to leverage my skills and education to contribute meaningfully to the ever-evolving field of technology.
-                        </p>
+    I am currently an undergraduate student at SLIIT Academy pursuing a B.Sc. Hons in Computer Science and Software Engineering from the University of Bedfordshire. My passion for technology extends beyond the classroom, as I actively seek opportunities to apply my knowledge in real-world scenarios. I consider myself a quick learner and thrive on challenges, always eager to explore and master new technologies. Whether it&apos;s web development, app creation, or Java programming, I approach each project with enthusiasm and a dedication to excellence. My goal is to leverage my skills and education to contribute meaningfully to the ever-evolving field of technology.
+</p>
+
                     </div>
 
                     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
