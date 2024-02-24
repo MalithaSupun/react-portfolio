@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
 
 
 
@@ -17,7 +20,7 @@ export default function Home() {
             <main className="bg-white px-10">
                 <section className="min-h-screen">
                     <nav className="py-10 mb-12 flex justify-between">
-                  <h1 className="text-xl font-burtons">developedbyed</h1>
+                  <h1 className="text-xl font-burtons">Malitha Supun</h1>
                   <ul className="flex items-center">
                     <li>
                         <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
@@ -43,6 +46,36 @@ export default function Home() {
                 <Image src={deved} layout="fill" objectFit="cover"/>
                 </div>
                 </section>
+
+                <section>
+                    <div>
+                        <h3 className="text-3xl py-1 mt-10">Services I offer</h3>
+                        <p className="text-md py-2 leading-8 text-gray-80">
+                            Since the begining of my journey as a Freelancer developer,I have done remote work for 
+                            <span className="text-teal-500"> agencies </span>
+                            consulted for<span className="text-teal-500"> startups </span>
+                            and collaborated with talanted people to create digital products
+                            for both business and consumer use.
+                        </p>
+                        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+                            i offer from a wide range of services, including brand design, programming and teaching.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                           <Image src={design} width={100} height={100}/>
+                           <h3>Beautiful Designs</h3>
+                           <p>
+                            Creating elegant designs suited for your needs following core design theory.
+                           </p>
+                           <h4>Design tools I use</h4>
+                           <p>Figma</p>
+                           <p>illustrator</p>
+                           <p>Figma</p>
+                        </div>
+                    </div>
+                </section>
+
             </main>
         </div>
     );
